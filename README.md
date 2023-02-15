@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1_bIuhdp-07-g4Of0HOv8GkQrjaXodjjj?usp=sha
 
 ```
 Để theo thư mục: `E:\datn_baotam\datn\StrongSORT-YOLO\\best.pt`
-![image](C:\Users\ACER\Downloads\ac.png)
+![Screenshot](image.png)
 
 ## Run code
 
@@ -30,3 +30,6 @@ python datn.py --device 0
 
 1. Hiệu chỉnh bật camera trong files `streams.txt`, xem camera index :0,1,2,3,4,...
 
+
+
+[def]: C:\Users\ACER\Downloads\ac.png
