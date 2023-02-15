@@ -10,6 +10,6 @@ Nhớ cài thêm cuda, cudnn để chạy gpu nha
 
 ```bash
 
-$ python tam.py --device 0
+$ python datn.py --device 0
 
 ```
