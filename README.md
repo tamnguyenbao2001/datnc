@@ -16,7 +16,7 @@ https://drive.google.com/drive/folders/1_bIuhdp-07-g4Of0HOv8GkQrjaXodjjj?usp=sha
 ```
 Để theo thư mục: `E:\datn_baotam\datn\StrongSORT-YOLO\\best.pt`
 
-<img src="C:/Users/ACER/Downloads/ac.png">
+<img src="image.png">
 
 ## Run code
 
