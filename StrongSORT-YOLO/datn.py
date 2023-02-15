@@ -55,14 +55,10 @@ from strong_sort.utils.parser import get_config
 from strong_sort.strong_sort import StrongSORT
 
 def detect(line_thickness=1):
-    source, weights, show_vid, save_txt, imgsz = 'E:\datn_baotam\datn\StrongSORT-YOLO\\638229838.mp4', 'E:\datn_baotam\datn\StrongSORT-YOLO\\best.pt', True, True, 720
+    source, weights, show_vid, save_txt, imgsz = 'E:\datn_baotam\datn\StrongSORT-YOLO\streams.txt', 'E:\datn_baotam\datn\StrongSORT-YOLO\\best.pt', True, True, 720
     webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(
         ('rtsp://', 'rtmp://', 'http://', 'https://'))
-    #https://www.youtube.com/watch?v=Uhu-1XLJKQY
-    #E:\da2baotam\da2\\best.pt
-    #E:\da2baotam\da2\\638229838.mp4
-    #https://www.youtube.com/watch?v=s3OhA7PJrpM
-    #'E:\da2baotam\da2\\train\\testcam'
+
     strong_sort_weights=WEIGHTS / 'osnet_x0_25_msmt17.pt'  # model.pt path,
     config_strongsort=ROOT / 'strong_sort/configs/strong_sort.yaml'
     count= False
@@ -302,7 +298,7 @@ def detect(line_thickness=1):
                         cv2.rectangle(im0, (x1, y1 + 1), (txt_size[0] * 2, y2),(0, 0, 0),-1)
                         cv2.putText(im0, '{}'.format(string_zones), (x1 + 10, y1 + 20), cv2.FONT_HERSHEY_SIMPLEX,0.7, (210, 210, 210), 2)
                         cv2.addWeighted(im0, 0.7, display, 1 - 0.7, 0, im0)
-                        y1 += 15
+                        y1 += 10
                         y2 += 30
                 with open('E:\da2baotam\da2\StrongSORT-YOLO\dataframe.txt','w') as file:    ##### Xoa file txt de khong luu lai gia tri count, neu la video thi lui` lai 1 tab`
                     pass
