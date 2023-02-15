@@ -16,6 +16,7 @@ https://drive.google.com/drive/folders/1_bIuhdp-07-g4Of0HOv8GkQrjaXodjjj?usp=sha
 ```
 Để theo thư mục: `E:\datn_baotam\datn\StrongSORT-YOLO\\best.pt`
 
+![ac](https://user-images.githubusercontent.com/108459203/218960347-1b66737c-a76a-49d7-96cb-0ee9b6c5d0e1.png)
 
 
 ## Run code
